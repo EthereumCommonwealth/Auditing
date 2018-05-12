@@ -1,4 +1,7 @@
+# Callisto Smart-contract auditing department.
 # Free security audits, for the safety of the entire industry.
+
+![alt text](https://github.com/EthereumCommonwealth/Callisto-Media-Kit/blob/master/logo-official-twitter_506x253.png)
 
 Callisto Security department performs free security audits for smart-contracts. Our security auditors are paid from [Callisto Treasury](https://github.com/EthereumCommonwealth/Roadmap/issues/48). Anyone can submit a request for security audit of a smart-contract free of charge.
 
