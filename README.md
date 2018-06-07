@@ -77,8 +77,6 @@ Other auditors, community members and the audit manager will also check this sma
 
 # Audit Report template
 
-# Audit report template
-
 The audit report name should start with a capital letter. Use underscores instead of spaces between words, write reports in `.md` format.
 
 The report should contain a title describing to which contract or contract system the report belongs.
