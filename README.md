@@ -54,3 +54,87 @@ If one of the community members has expressed a desire to participate in the aud
 ### Disclosure policy
 
 After the audit was completed, the audit manager **may** inform the customer about the results without revealing the reports. After 15 days from the date of informing the customer about the findings, the reports should still be published and the results summed up.
+
+# Security Auditor's guide
+
+## What the auditor of smart-contracts should do.
+
+The main task of each security auditor is to check the code for security-related mistakes and write a report on the detected errors after the audit is completed.
+
+1. All the work will be coordinated through github. Each auditor **must** visit the [Auditing/issues](https://github.com/EthereumCommonwealth/Auditing/issues) repository section every (working) day.
+
+If an audit request (issue) which is labeled `approved` appears in the list,  the auditor **may** pick it. The audit manager can also appoint an auditor if he is not currently engaged in any smart contract checking, by mentioning their github nicknames in the corresponding issue. If the auditor was appointed to a certain issue by the auditing manager, then the auditor **must** perform a verification of the corresponding contract.
+
+2. After the auditor has received the objective of his work, he **must** comment the time that, in his opinion, will be required to verify this smart-contract. 
+
+3. The auditor **must** create a **secret** gist (audit report template) and send it to the auditing manager by email. WARNING: the auditor must never reveal the gist url. It will be revealed by auditing manager at the end of auditing process.
+
+4. The auditor **must** check the contract code, perform necessary testing and describe findings at the secret gist (audit report).
+
+Other auditors, community members and the audit manager will also check this smart contract, so the auditor is not incentivised in hiding the errors found or trying to exploit them.
+
+5. After the auditor has completed the verification of the code and supplemented his report with a description of the findings, he should comment the corresponding issue that his report is finished.
+
+# Audit Report template
+
+# Audit report template
+
+The audit report name should start with a capital letter. Use underscores instead of spaces between words, write reports in `.md` format.
+
+The report should contain a title describing to which contract or contract system the report belongs.
+
+The report should contain the following sections:
+
+## 1. Summary
+
+Briefly describe the audit report, the purpose of a contract (or contract system) that was reviewed and key features of the contract.
+
+*This may be important to understand the inner logic of the contract or a contract system.*
+
+## 2. In scope
+
+Specify the range of contracts, the version of the contracts that have been verified. If the source code was published on Github, then specify the commit hash.
+
+#### 2.1 Excluded (optional)
+
+Specify which files or contracts were not checked during the audit if there were any contracts/files that were excluded for some reason.
+
+## 3. Findings
+
+Summarize the total amount of mistakes and their severity.
+
+## 3.x Error ( `severity` )
+
+*Describe each bug/mistake/error separately*
+
+Severity assigning:
+
+- high - vulnerability can be exploited at any time and cause a loss of customers funds or a complete breach of contract operability. *(Example: [Parity Multisig hack](https://medium.com/@Pr0Ger/another-parity-wallet-hack-explained-847ca46a2e1c), a user has exploited a vulnerability and violated the operability of the whole system of smart-contracts (Parity Multisigs). This could performed regardless of external conditions at any time.)*
+
+- medium - vulnerability can be exploited in some specific circumstances and cause a loss of customers funds or a breach of operability of smart-contract (or smart-contract system). *(Example: [ERC20 bug](https://gist.github.com/Dexaran/ddb3e89fe64bf2e06ed15fbd5679bd20), a user can exploit a bug (or "undocumented opportunity") of `transfer` function and occasionally burn his tokens. A user can not violate someone else's funds or cause a complete breach of the whole contract operability. However, this leads to millions of dollars losses for Ethereum ecosystem and token developers.)*
+
+- low - vulnerability can not cause a loss of customers funds or a breach of contracts operability. However it can cause any kind of problems or inconveniences. *(Example: [Permanent owners of multisig contracts](https://gist.github.com/Dexaran/2389d5e7290ab69709d33abfe0485bec#1-permanent-ownership), owners are permanent, thus if it will be necessary to remove a misbehaving "owner" from the owners list then it will require to redeploy the whole contract and transfer funds to a new one.)*
+
+- minor observation - other code flaws, not security-related issues.
+
+#### Code snippet
+
+Give a link to a fragment of code that can lead to an error that you describe.
+
+#### Description
+
+Describe this finding in detail.
+
+#### Recommendation (optional)
+
+Write down how the bug can be fixed if you know how to do it. However, fixing bugs is not the primary goal of the security auditor.
+
+## 4. Conclusion
+
+Describe the most important findings and their relationship to the main purpose of the contract. Describe how the internal logic of the contract is related to its purpose.
+Indicate whether the contract is safe or any critical problems needs to be resolved.
+
+# Example: ETC multisig audit report
+
+https://gist.github.com/Dexaran/2389d5e7290ab69709d33abfe0485bec
+
