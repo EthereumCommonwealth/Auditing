@@ -5,7 +5,20 @@ Callisto Security department performs free security audits for smart-contracts. 
 
 ETC (Ethereum Classic) and CLO (Callisto) Solidity smart-contracts have the highest priority.
 
+If you are using our audit report or announcing it for the general public, proper attribution required: 
+
+"Smart Contract Security Audit by Callisto Network" 
+
+alternatively you can use our verified badge:
+
+![alt text](https://github.com/sneg55/Auditing/blob/master/callisto-badge.png)
+
+
 # Submitting an audit request
+
+You can use Smart Contract Audit Request web form on our site: https://callisto.network/smart-contract-audit/ 
+
+or create request directly:
 
 1. Go to Auditing/issues section and click a [New Issue](https://github.com/EthereumCommonwealth/Auditing/issues/new) button.
 2. Fill the form and click a "Submit New Issue" button.
