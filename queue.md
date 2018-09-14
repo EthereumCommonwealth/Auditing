@@ -1,7 +1,5 @@
 # Currently we working on these audit requests:
 
-[LOTTEREUM](https://github.com/EthereumCommonwealth/Auditing/issues/25)
-
 [Hydrogen](https://github.com/EthereumCommonwealth/Auditing/issues/27)
 
 [RedNetwork](https://github.com/EthereumCommonwealth/Auditing/issues/28)
