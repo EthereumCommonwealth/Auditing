@@ -12,7 +12,7 @@
 
 
 
-# Next audit request in order:
+# Next audit requests in order:
 
 [ITU](https://github.com/EthereumCommonwealth/Auditing/issues/30)
 
