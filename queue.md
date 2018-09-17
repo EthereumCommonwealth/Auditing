@@ -4,8 +4,6 @@
 
 [Natmin](https://github.com/EthereumCommonwealth/Auditing/issues/29)
 
-[Fenix Cash](https://github.com/EthereumCommonwealth/Auditing/issues/47)
-
 [DACom PROTOCOL](https://github.com/EthereumCommonwealth/Auditing/issues/42)
 
 [ITU](https://github.com/EthereumCommonwealth/Auditing/issues/30)
