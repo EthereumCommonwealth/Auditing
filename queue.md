@@ -2,17 +2,11 @@
 
 [Hydrogen](https://github.com/EthereumCommonwealth/Auditing/issues/27)
 
-[RedNetwork](https://github.com/EthereumCommonwealth/Auditing/issues/28)
-
 [Natmin](https://github.com/EthereumCommonwealth/Auditing/issues/29)
 
 [Fenix Cash](https://github.com/EthereumCommonwealth/Auditing/issues/47)
 
 [DACom PROTOCOL](https://github.com/EthereumCommonwealth/Auditing/issues/42)
-
-
-
-# Next audit requests in order:
 
 [ITU](https://github.com/EthereumCommonwealth/Auditing/issues/30)
 
@@ -20,6 +14,16 @@
 
 [Talenta](https://github.com/EthereumCommonwealth/Auditing/issues/32)
 
+
+
+# Next audit requests in order:
+
 [SUAPP](https://github.com/EthereumCommonwealth/Auditing/issues/33)
 
 [Centaure](https://github.com/EthereumCommonwealth/Auditing/issues/34)
+
+[Mambocoin](https://github.com/EthereumCommonwealth/Auditing/issues/35)
+
+[Stattm](https://github.com/EthereumCommonwealth/Auditing/issues/37)
+
+[Capital coin](https://github.com/EthereumCommonwealth/Auditing/issues/38)
