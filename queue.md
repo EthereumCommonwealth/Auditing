@@ -1,20 +1,11 @@
 # Currently we working on these audit requests:
 
-[Hydrogen](https://github.com/EthereumCommonwealth/Auditing/issues/27)
-
-[Natmin](https://github.com/EthereumCommonwealth/Auditing/issues/29)
 
 [DACom PROTOCOL](https://github.com/EthereumCommonwealth/Auditing/issues/42)
 
 [ITU](https://github.com/EthereumCommonwealth/Auditing/issues/30)
 
-[Atomz](https://github.com/EthereumCommonwealth/Auditing/issues/31)
-
 [Talenta](https://github.com/EthereumCommonwealth/Auditing/issues/32)
-
-
-
-# Next audit requests in order:
 
 [SUAPP](https://github.com/EthereumCommonwealth/Auditing/issues/33)
 
@@ -25,3 +16,15 @@
 [Stattm](https://github.com/EthereumCommonwealth/Auditing/issues/37)
 
 [Capital coin](https://github.com/EthereumCommonwealth/Auditing/issues/38)
+
+# Next audit requests in order:
+
+[WooshCoin](https://github.com/EthereumCommonwealth/Auditing/issues/41)
+
+[FORZE](https://github.com/EthereumCommonwealth/Auditing/issues/43)
+
+[electrominer.io pre ICO](https://github.com/EthereumCommonwealth/Auditing/issues/44)
+
+[Must Platform](https://github.com/EthereumCommonwealth/Auditing/issues/49)
+
+[Aclyd Project](https://github.com/EthereumCommonwealth/Auditing/issues/50)
