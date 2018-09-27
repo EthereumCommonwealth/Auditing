@@ -5,8 +5,6 @@
 
 [ITU](https://github.com/EthereumCommonwealth/Auditing/issues/30)
 
-[SUAPP](https://github.com/EthereumCommonwealth/Auditing/issues/33)
-
 [Mambocoin](https://github.com/EthereumCommonwealth/Auditing/issues/35)
 
 [Stattm](https://github.com/EthereumCommonwealth/Auditing/issues/37)
