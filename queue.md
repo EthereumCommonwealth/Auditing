@@ -2,8 +2,6 @@
 
 [DACom PROTOCOL](https://github.com/EthereumCommonwealth/Auditing/issues/42)
 
-[ComBox](https://github.com/EthereumCommonwealth/Auditing/issues/61)
-
 [CryptoRabbits](https://github.com/EthereumCommonwealth/Auditing/issues/64)
 
 [W12 platform](https://github.com/EthereumCommonwealth/Auditing/issues/67)
