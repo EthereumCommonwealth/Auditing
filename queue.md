@@ -8,8 +8,6 @@
 
 [foodnation](https://github.com/EthereumCommonwealth/Auditing/issues/68)
 
-[Bitcademy](https://github.com/EthereumCommonwealth/Auditing/issues/78)
-
 # Next audit requests in order:
 
 [POCgames](https://github.com/EthereumCommonwealth/Auditing/issues/69)
