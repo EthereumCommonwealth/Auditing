@@ -2,8 +2,6 @@
 
 [DACom PROTOCOL](https://github.com/EthereumCommonwealth/Auditing/issues/42)
 
-[CryptoRabbits](https://github.com/EthereumCommonwealth/Auditing/issues/64)
-
 [W12 platform](https://github.com/EthereumCommonwealth/Auditing/issues/67)
 
 [foodnation](https://github.com/EthereumCommonwealth/Auditing/issues/68)
