@@ -6,10 +6,6 @@
 
 [MZT1](https://github.com/EthereumCommonwealth/Auditing/issues/73)
 
-[DailyETC](https://github.com/EthereumCommonwealth/Auditing/issues/80)
-
-[BCT](https://github.com/EthereumCommonwealth/Auditing/issues/81)
-
 [Bitcademy v.2](https://github.com/EthereumCommonwealth/Auditing/issues/85)
 
 # Next audit requests in order:
