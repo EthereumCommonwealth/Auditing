@@ -2,8 +2,6 @@
 
 [W12 platform](https://github.com/EthereumCommonwealth/Auditing/issues/67)
 
-[MZBoss smart contract_v3 (casino share)](https://github.com/EthereumCommonwealth/Auditing/issues/71)
-
 [MZT1](https://github.com/EthereumCommonwealth/Auditing/issues/73)
 
 [BlackPearlETC](https://github.com/EthereumCommonwealth/Auditing/issues/79)
