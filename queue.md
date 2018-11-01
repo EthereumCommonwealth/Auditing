@@ -4,8 +4,6 @@
 
 [ProofOfCommunity](https://github.com/EthereumCommonwealth/Auditing/issues/82)
 
-[Wallie](https://github.com/EthereumCommonwealth/Auditing/issues/83)
-
 [shipnextico](https://github.com/EthereumCommonwealth/Auditing/issues/86)
 
 [Easy invest up](https://github.com/EthereumCommonwealth/Auditing/issues/87)
