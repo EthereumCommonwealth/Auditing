@@ -8,8 +8,6 @@
 
 [Easy invest up](https://github.com/EthereumCommonwealth/Auditing/issues/87)
 
-[elad network](https://github.com/EthereumCommonwealth/Auditing/issues/89)
-
 # Next audit requests in order:
 
 [MultiToken](https://github.com/EthereumCommonwealth/Auditing/issues/76)
