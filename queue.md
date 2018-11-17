@@ -1,17 +1,28 @@
 # Currently we working on these audit requests:
 
-[MZT1](https://github.com/EthereumCommonwealth/Auditing/issues/73)
-
-[ProofOfCommunity](https://github.com/EthereumCommonwealth/Auditing/issues/82)
-
 [shipnextico](https://github.com/EthereumCommonwealth/Auditing/issues/86)
 
-[Easy invest up](https://github.com/EthereumCommonwealth/Auditing/issues/87)
+[weiDex](https://github.com/EthereumCommonwealth/Auditing/issues/84)
+
+[MZT2](https://github.com/EthereumCommonwealth/Auditing/issues/90)
+
+[V-ID](https://github.com/EthereumCommonwealth/Auditing/issues/91)
+
+[HyipProfit](https://github.com/EthereumCommonwealth/Auditing/issues/94)
+
+[CryptosoulToken](https://github.com/EthereumCommonwealth/Auditing/issues/95)
+
+[Metadollar DOLF](https://github.com/EthereumCommonwealth/Auditing/issues/97)
 
 # Next audit requests in order:
 
 [MultiToken](https://github.com/EthereumCommonwealth/Auditing/issues/76)
 
-[weiDex](https://github.com/EthereumCommonwealth/Auditing/issues/84)
+[Pipschain](https://github.com/EthereumCommonwealth/Auditing/issues/98)
 
-[MZT2](https://github.com/EthereumCommonwealth/Auditing/issues/90)
+[HYDRO Token](https://github.com/EthereumCommonwealth/Auditing/issues/99)
+
+[Lucky Strike](https://github.com/EthereumCommonwealth/Auditing/issues/100)
+
+[Metadollar MFG](https://github.com/EthereumCommonwealth/Auditing/issues/101)
+
