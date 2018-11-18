@@ -6,8 +6,6 @@
 
 [MZT2](https://github.com/EthereumCommonwealth/Auditing/issues/90)
 
-[V-ID](https://github.com/EthereumCommonwealth/Auditing/issues/91)
-
 [HyipProfit](https://github.com/EthereumCommonwealth/Auditing/issues/94)
 
 [CryptosoulToken](https://github.com/EthereumCommonwealth/Auditing/issues/95)
