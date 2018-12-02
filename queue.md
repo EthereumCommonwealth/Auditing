@@ -4,23 +4,25 @@
 
 [weiDex](https://github.com/EthereumCommonwealth/Auditing/issues/84)
 
-[MZT2](https://github.com/EthereumCommonwealth/Auditing/issues/90)
+[Lucky Strike](https://github.com/EthereumCommonwealth/Auditing/issues/100)
 
-[HyipProfit](https://github.com/EthereumCommonwealth/Auditing/issues/94)
+[Metadollar MFG](https://github.com/EthereumCommonwealth/Auditing/issues/101)
 
-[CryptosoulToken](https://github.com/EthereumCommonwealth/Auditing/issues/95)
+[0xBTC Smart Contract](https://github.com/EthereumCommonwealth/Auditing/issues/102)
 
-[Metadollar DOLF](https://github.com/EthereumCommonwealth/Auditing/issues/97)
+[Caelum](https://github.com/EthereumCommonwealth/Auditing/issues/104)
+
+[Social Note](https://github.com/EthereumCommonwealth/Auditing/issues/105)
+
 
 # Next audit requests in order:
 
 [MultiToken](https://github.com/EthereumCommonwealth/Auditing/issues/76)
 
-[Pipschain](https://github.com/EthereumCommonwealth/Auditing/issues/98)
+[Go Blockchain](https://github.com/EthereumCommonwealth/Auditing/issues/106)
 
-[HYDRO Token](https://github.com/EthereumCommonwealth/Auditing/issues/99)
+[Global Invest Fund](https://github.com/EthereumCommonwealth/Auditing/issues/108)
 
-[Lucky Strike](https://github.com/EthereumCommonwealth/Auditing/issues/100)
+[Authpaper](https://github.com/EthereumCommonwealth/Auditing/issues/109)
 
-[Metadollar MFG](https://github.com/EthereumCommonwealth/Auditing/issues/101)
-
+[Token Buyers Club](https://github.com/EthereumCommonwealth/Auditing/issues/110)
