@@ -5,8 +5,6 @@
 
 [Metadollar MFG](https://github.com/EthereumCommonwealth/Auditing/issues/101)
 
-[Caelum](https://github.com/EthereumCommonwealth/Auditing/issues/104)
-
 [Authpaper](https://github.com/EthereumCommonwealth/Auditing/issues/109)
 
 [iAM tokens](https://github.com/EthereumCommonwealth/Auditing/issues/111)
