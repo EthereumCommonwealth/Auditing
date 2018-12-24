@@ -68,6 +68,27 @@ If one of the community members has expressed a desire to participate in the aud
 
 After the audit was completed, the audit manager **may** inform the customer about the results without revealing the reports. After 15 days from the date of informing the customer about the findings, the reports should still be published and the results summed up.
 
+## Security Auditor's Salary
+
+After an auditor completes a smart contract audit, he receives a reward which dependents from contract complexity and work quality. When hiring, an auditor can choose the base currency (CLO or USD) of the salary, but he can't change it in the future.
+
+ `An auditor's reward = contract reward * ratio`
+
+|Contract Complexity|Reward, CLO|Reward, USD|
+|---|---|---|
+|High|80,000|800|
+|Medium|40,000|400|
+|Mid-Low|20,000|200|
+|Low|10,000|100|
+
+| Work quality | Ratio | Description |
+|---|---|---|
+|Excellent|ratio 1|Found all medium and high severity issues|
+|Good|ratio 1/2|Found some medium and/or high severity issues and missed some medium severity issues|
+|Satisfactory|ratio 1/4|Found some medium and/or high severity issues and missed some high severity issues|
+|Poor|ratio 1/8|Missed all medium and/or high severity issues|
+|Average|ratio 1/3|A contract has not any medium and high severity issues|
+
 # Security Auditor's guide
 
 ## What the auditor of smart-contracts should do.
