@@ -101,7 +101,9 @@ If an audit request (issue) which is labeled `approved` appears in the list,  th
 
 2. After the auditor has received the objective of his work, he **must** comment the time that, in his opinion, will be required to verify this smart-contract. 
 
-3. The auditor **must** create a **secret** gist (audit report template) and send it to the auditing manager by email. WARNING: the auditor must never reveal the gist url. It will be revealed by auditing manager at the end of auditing process.
+3. The auditor **must** create a **secret** gist (audit report template) and send it to the auditing manager by email. WARNING: the auditor must never reveal the gist url. It will be revealed by auditing manager at the end of the auditing process. The secret gist should be named as follows: `NETWORK_contract_name_report.md`
+
+Example: `ETH_the_dao_report.md`
 
 4. The auditor **must** check the contract code, perform necessary testing and describe findings at the secret gist (audit report).
 
