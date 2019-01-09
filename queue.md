@@ -12,3 +12,5 @@
 
 [MultiToken](https://github.com/EthereumCommonwealth/Auditing/issues/76)
 
+[Brickblock](https://github.com/EthereumCommonwealth/Auditing/issues/20)
+
