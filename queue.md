@@ -4,9 +4,9 @@
 
 [tubiex](https://github.com/EthereumCommonwealth/Auditing/issues/128)
 
-[followine](https://github.com/EthereumCommonwealth/Auditing/issues/132)
-
 [MultiToken](https://github.com/EthereumCommonwealth/Auditing/issues/76)
+
+[Trojan tokens](https://github.com/EthereumCommonwealth/Auditing/issues/137)
 
 # Next audit requests in order:
 
