@@ -8,8 +8,6 @@
 
 [Hydrogen Snowflake](https://github.com/EthereumCommonwealth/Auditing/issues/138)
 
-[EthID tokens](https://github.com/EthereumCommonwealth/Auditing/issues/139)
-
 # Next audit requests in order:
 
 [Brickblock](https://github.com/EthereumCommonwealth/Auditing/issues/20)
