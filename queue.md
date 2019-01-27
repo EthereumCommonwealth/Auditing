@@ -6,7 +6,9 @@
 
 [MultiToken](https://github.com/EthereumCommonwealth/Auditing/issues/76)
 
-[Trojan tokens](https://github.com/EthereumCommonwealth/Auditing/issues/137)
+[Hydrogen Snowflake](https://github.com/EthereumCommonwealth/Auditing/issues/138)
+
+[EthID tokens](https://github.com/EthereumCommonwealth/Auditing/issues/139)
 
 # Next audit requests in order:
 
