@@ -6,8 +6,6 @@
 
 [MultiToken](https://github.com/EthereumCommonwealth/Auditing/issues/76)
 
-[Hydrogen Snowflake](https://github.com/EthereumCommonwealth/Auditing/issues/138)
-
 # Next audit requests in order:
 
 [Brickblock](https://github.com/EthereumCommonwealth/Auditing/issues/20)
