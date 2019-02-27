@@ -6,8 +6,6 @@
 
 [Crypto-Cards](https://github.com/EthereumCommonwealth/Auditing/issues/148)
 
-[Bulleon Tokens](https://github.com/EthereumCommonwealth/Auditing/issues/151)
-
 [FFM Token](https://github.com/EthereumCommonwealth/Auditing/issues/153)
 
 
@@ -19,8 +17,3 @@
 
 [Viribus Token](https://github.com/EthereumCommonwealth/Auditing/issues/142)
 
-[TAN Token](https://github.com/EthereumCommonwealth/Auditing/issues/154)
-
-[WiToken](https://github.com/EthereumCommonwealth/Auditing/issues/155)
-
-[PlayT Token](https://github.com/EthereumCommonwealth/Auditing/issues/156)
