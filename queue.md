@@ -6,7 +6,7 @@
 
 [FFM Token](https://github.com/EthereumCommonwealth/Auditing/issues/153)
 
-[1Addres](https://github.com/EthereumCommonwealth/Auditing/issues/157)
+[1Address](https://github.com/EthereumCommonwealth/Auditing/issues/157)
 
 # Next audit requests in order:
 
