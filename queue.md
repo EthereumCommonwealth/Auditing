@@ -6,13 +6,10 @@
 
 [FFM Token](https://github.com/EthereumCommonwealth/Auditing/issues/153)
 
-[1Address](https://github.com/EthereumCommonwealth/Auditing/issues/157)
 
 # Next audit requests in order:
 
 [Lucky Strike v2](https://github.com/EthereumCommonwealth/Auditing/issues/152)
 
 [Brickblock](https://github.com/EthereumCommonwealth/Auditing/issues/20)
-
-[Viribus Token](https://github.com/EthereumCommonwealth/Auditing/issues/142)
 
