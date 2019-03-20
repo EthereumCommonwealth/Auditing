@@ -24,7 +24,7 @@ or create request directly:
 1. Go to Auditing/issues section and click a [New Issue](https://github.com/EthereumCommonwealth/Auditing/issues/new) button.
 2. Fill the form and click a "Submit New Issue" button.
 3. Follow the comments in the corresponding "issue" discussion.
-4. The result of a security audit will be published at the comments once auditors complete their task.
+4. The result of a security audit will be published at the comment thread with the `Security Audit Report` header once auditors complete their task.
 
 ![alt text](https://github.com/EthereumCommonwealth/Callisto-Media-Kit/blob/master/logo-official-twitter_506x253.png)
 
