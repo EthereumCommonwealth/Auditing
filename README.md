@@ -13,7 +13,7 @@ alternatively you can use our verified badge:
 
 ![alt text](https://github.com/sneg55/Auditing/blob/master/callisto-badge.png)
 
-Anyone can submit a request of a security audit for an open-source smart-contract. After the creation of a security audit request, we will contact the developers of the smart contract being audited. Until we receive the response from the developers, the audit request will be assigned a `low priority` status. Low priority status is unassigned when we receive the confirmation from the developers. Confirmed audit requests are processed first.
+Anyone can submit a request of a security audit for an open-source smart-contract. After the creation of a security audit request, we will contact the developers of the smart contract being audited. Until we receive the response from the developers, the audit request will be assigned a `low priority` status. Low priority status is unassigned when we receive the confirmation from the developers. Confirmed audit requests are processed ahead of unconfirmed requests.
 
 # Submitting an audit request
 
