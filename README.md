@@ -28,7 +28,13 @@ or create request directly:
 
 ### (Optional) Increasing the priority of an audit request
 
-The requester can increase the priority of an audit request by paying a certain amount of CLO directly into Treasury. The requester must send this amount of CLO to [0x74682Fc32007aF0b6118F259cBe7bCCC21641600 (Treasury address)](https://explorer2.callisto.network/addr/0x74682Fc32007aF0b6118F259cBe7bCCC21641600). The amount of payment depends on the length of the code of the auditable contract and is equal to $0,6 per line of code. Empty lines of code and comments can be excluded and it is not necessary to pay for them. It is recommended to use [SLOC counter](https://agingcoder.com/tool/2014/04/22/sloc-counter/) to calculate the accurate amount of lines of code. The overpaid amount of CLO will be returned to the sender's address after the completion of the security audit.
+The requester can increase the priority of an audit request by paying a certain amount of CLO directly to Treasury. The requester must send this amount of CLO to [0x74682Fc32007aF0b6118F259cBe7bCCC21641600 (Treasury address)](https://explorer2.callisto.network/addr/0x74682Fc32007aF0b6118F259cBe7bCCC21641600). The amount of payment depends on the length of the code of the auditable contract and is equal to **$0,6 per line of code**. Empty lines of code and comments can be excluded and it is not necessary to pay for them. It is recommended to use [SLOC counter](https://agingcoder.com/tool/2014/04/22/sloc-counter/) to calculate the accurate amount of lines of code that require payment. The overpaid amount of CLO will be returned to the sender's address after the completion of the security audit. High priority audit requests are processed ahead of queue.
+
+NOTE: Please, attach the hex-encoded Data to the payment transaction to help us identify the validity of payment, if possible. [ASCII-To-Hex converter](https://www.rapidtables.com/convert/number/ascii-to-hex.html) can be used for this purpose. Example: "Payment for CryptoKitties audit request" will be encoded as `0x5061796d656e7420666f722043727970746f4b6974746965732061756469742072657175657374`.
+
+Example:
+
+If a user is willing to submit `MyToken.sol` (210 lines of code) contract for the audit and increase the priority of this request then he need to send $126 equivalent of CLO to Treasury address. He can attach the `0x5061796d656e7420666f72204d79546f6b656e206175646974` data to the transaction to prove that this is the payment for the MyToken audit priority.
 
 ![alt text](https://github.com/EthereumCommonwealth/Callisto-Media-Kit/blob/master/logo-official-twitter_506x253.png)
 
