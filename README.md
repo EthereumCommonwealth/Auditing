@@ -26,6 +26,10 @@ or create request directly:
 3. Follow the comments in the corresponding "issue" discussion.
 4. The result of a security audit will be published at the comment thread with the `Security Audit Report` header once auditors complete their task.
 
+### (Optional) Increasing the priority of an audit request
+
+The requester can increase the priority of an audit request by paying a certain amount of CLO directly into Treasury. The requester must send this amount of CLO to [0x74682Fc32007aF0b6118F259cBe7bCCC21641600 (Treasury address)](https://explorer2.callisto.network/addr/0x74682Fc32007aF0b6118F259cBe7bCCC21641600). The amount of payment depends on the length of the code of the auditable contract and is equal to $0,6 per line of code. Empty lines of code and comments can be excluded and it is not necessary to pay for them. It is recommended to use [SLOC counter](https://agingcoder.com/tool/2014/04/22/sloc-counter/) to calculate the accurate amount of lines of code. The overpaid amount of CLO will be returned to the sender's address after the completion of the security audit.
+
 ![alt text](https://github.com/EthereumCommonwealth/Callisto-Media-Kit/blob/master/logo-official-twitter_506x253.png)
 
 ## Callisto Security Department workflow.
