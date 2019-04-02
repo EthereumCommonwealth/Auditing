@@ -95,10 +95,10 @@ After an auditor completes a smart contract audit, he receives a reward which de
 | Work quality | Ratio | Description |
 |---|---|---|
 |Excellent|ratio 1|Found all medium and high severity issues|
-|Good|ratio 1/2|Found some medium and/or high severity issues and missed some medium severity issues|
-|Satisfactory|ratio 1/4|Found some medium and/or high severity issues and missed some high severity issues|
-|Poor|ratio 1/8|Missed all medium and/or high severity issues|
-|Average|ratio 1/3|A contract has not any medium and high severity issues|
+|Good|ratio 1/2|Found some medium and/or high severity issues, but missed some medium severity issues|
+|Satisfactory|ratio 1/4|Found some medium and/or high severity issues, but missed some high severity issues|
+|Poor|ratio 1/8|Missed medium and/or high severity issues|
+|Average|ratio 1/3|A contract has no medium or high severity issues|
 
 # Security Auditor's guide
 
