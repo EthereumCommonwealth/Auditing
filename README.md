@@ -93,6 +93,8 @@ If one of the community members has expressed a desire to participate in the aud
 
 ### Disclosure policy
 
+Read more here: [Standard disclosure policy of Callisto](https://github.com/EthereumCommonwealth/Auditing/blob/master/Standard_disclosure_policy.md)
+
 After the audit was completed, the audit manager **may** inform the customer about the results without revealing the reports. After 15 days from the date of informing the customer about the findings, the reports should still be published and the results summed up.
 
 ## Security Auditor's Salary
