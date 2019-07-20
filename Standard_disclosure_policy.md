@@ -1,4 +1,4 @@
-# Standard disclosure policy (Callisto: Solidity Security Department)
+# Standard disclosure policy
 
 This disclosure policy defines the rules by which the Security Department will publish the results of its work during audits of open-source smart-contracts.
 
