@@ -21,7 +21,7 @@ Although we provide free audits, we ask our customers to understand the fact tha
 
 Please, only submit your code for review once the development of the smart-contract is in its final stage and the contract is ready to be used.
 
-Only the first audit of a smart-contract code is free. If a customer submits an updated smart-contract for re-audit earlier than a month after the previous audit was completed, then it will be necessary to pay for the re-audit ($0,6 per line of code).
+Only the first audit of a smart-contract code is free. If a customer submits an updated smart-contract for re-audit then it will be necessary to pay for the re-audit ($0,6 per line of code).
 
 Re-auditing of a smart-contract includes a full check of the smart contract code, as any minor changes could affect the overall behavior of the smart contract. Even if only 10 lines of code were changed, then the entire smart contract will be re-audited.
 
