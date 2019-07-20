@@ -1,4 +1,4 @@
-# Standard disclosure policy
+# Standard disclosure policy for open-source contracts
 
 This disclosure policy defines the rules by which the Security Department will publish the results of its work during audits of open-source smart-contracts.
 
