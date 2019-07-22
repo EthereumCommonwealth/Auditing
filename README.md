@@ -87,9 +87,11 @@ After the auditor has completed the verification of the code, he should comment 
 
 After all the responsible auditors have completed their reports, the audit manager must compare the reports.
 
-If there are no significant discrepancies in the reports and no critical errors are detected, then the audit manager **must** complete the audit by summarizing the reports and submitting secret gist urls in the comment of the corresponding audit request-issue. The audit is considered complete after all the responsible auditors have submitted their reports, and the audit manager has summarized the results of these reports and published report gist urls.
+If there are no significant discrepancies in the reports and no critical errors were found, then the audit manager **must** complete the audit by summarizing the reports and submitting secret gist urls in the comment thread of the corresponding audit request-issue. The audit is considered complete after all the responsible auditors have submitted their reports, and the audit manager has summarized the results of these reports and published report gist urls.
 
 If one of the community members has expressed a desire to participate in the audit of this contract and also sent his report to the audit manager, then the audit manager **must** review the report and comment its secret gist url to the corresponding github request-issue regardless of whether the audit was already completed or not.
+
+If any of the auditors described findings that were not included in the final report, then the auditing manager **must** describe the reason for excluding these findings in the comment thread of his fork of the auditor's report-gist.
 
 ### Disclosure policy
 
