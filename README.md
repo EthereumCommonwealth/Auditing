@@ -15,22 +15,6 @@ alternatively you can use our verified badge:
 
 Anyone can submit a request of a security audit for an open-source smart-contract. After the creation of a security audit request, we will contact the developers of the smart contract being audited. Until we receive the response from the developers, the audit request will be assigned a `low priority` status. Low priority status is unassigned when we receive the confirmation from the developers. Confirmed audit requests are processed ahead of unconfirmed requests.
 
-## Callisto Network is not a debugging tool!
-
-Although we provide free audits, we ask our customers to understand the fact that real people work in our organization, but not automated tests. We strongly recommend using specially designed tools for debugging and testing. We also recommend using automated tests to verify minor changes and fixes. 
-
-Please, only submit your code for review once the development of the smart-contract is in its final stage and the contract is ready to be used.
-
-Only the first audit of a smart-contract code is free. If a customer submits an updated smart-contract for re-audit then it will be necessary to pay for the re-audit ($0,6 per line of code).
-
-Re-auditing of a smart-contract includes a full check of the smart contract code, as any minor changes could affect the overall behavior of the smart contract. Even if only 10 lines of code were changed, then the entire smart contract will be re-audited.
-
-There are two ways to avoid a complete re-audit if the contract is updated:
-
-- break your smart-contract into modules so that they can be audited separately from each other
-
-- cover the smart-contract code with [automated tests](https://www.trufflesuite.com/docs/truffle/testing/writing-tests-in-solidity) to prove that the update did not affect a behavior of the smart-contract
-
 # Submitting an audit request
 
 You can use Smart Contract Audit Request web form on our site: https://callisto.network/smart-contract-audit/ 
@@ -41,6 +25,22 @@ or create request directly:
 2. Fill the form and click a "Submit New Issue" button.
 3. Follow the comments in the corresponding "issue" discussion.
 4. The result of a security audit will be published at the comment thread with the `Security Audit Report` header once auditors complete their task.
+
+## Callisto Network is not a debugging tool!
+
+Although we provide free audits, we ask our customers to understand the fact that real people work in our organization, but not automated tests. We strongly recommend using specially designed tools for debugging and testing. We also recommend using automated tests to verify minor changes and fixes.
+
+Please, only submit your code for review once the development of the smart-contract is in its final stage and the contract is ready to be used.
+
+Only the first audit of a smart-contract code is free. If a customer submits an updated smart-contract for re-audit then it will be necessary to pay for the re-audit ($0,6 per line of code).
+
+Re-auditing of a smart-contract includes a full check of the smart-contract code, as any minor changes could affect the overall behavior of the smart-contract. Even if 10 lines of code were changed, the entire smart contract will be re-audited.
+
+There are two ways to avoid a complete re-audit if the contract is updated:
+
+- break your smart-contract into modules so that they can be audited separately from each other
+
+- cover the smart-contract code with [automated tests](https://www.trufflesuite.com/docs/truffle/testing/writing-tests-in-solidity) to prove that the update did not affect a behavior of the smart-contract
 
 ### (Optional) Increasing the priority of an audit request
 
