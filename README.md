@@ -48,8 +48,8 @@ The requester can increase the priority of an audit request by paying a certain 
 
 | Priority | Payment formula |
 | ---: | ---: |
-| Highest | 500 USD + (0.5 USD per line of code) |
-| High | 1000 USD + (0.6 USD per line of code) |
+| Highest | 1000 USD + (0.6 USD per line of code) |
+| High | 500 USD + (0.5 USD per line of code) |
 
 - Highest priority audits are processed before of any audits in the queue.
 
