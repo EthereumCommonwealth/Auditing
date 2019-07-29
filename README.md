@@ -44,7 +44,14 @@ There are two ways to avoid a complete re-audit if the contract is updated:
 
 ### (Optional) Increasing the priority of an audit request
 
-The requester can increase the priority of an audit request by paying a certain amount of CLO directly to Treasury. The requester must send this amount of CLO, ETH or ETC to [0x74682Fc32007aF0b6118F259cBe7bCCC21641600 (Treasury address)](https://explorer2.callisto.network/addr/0x74682Fc32007aF0b6118F259cBe7bCCC21641600). Any of these three currencies (ETH, ETC or CLO) can be sent to this address `0x74682Fc32007aF0b6118F259cBe7bCCC21641600`. The amount of payment depends on the length of the code of the auditable contract and is equal to **$0,6 per line of code**. Empty lines of code and comments can be excluded and it is not necessary to pay for them. It is recommended to use [SLOC counter](https://agingcoder.com/tool/2014/04/22/sloc-counter/) to calculate the accurate amount of lines of code that require payment. The overpaid amount of CLO, ETH or ETC will be returned to the sender's address after the completion of the security audit. High priority audit requests are processed ahead of queue.
+The requester can increase the priority of an audit request by paying a certain amount of CLO, ETH or ETC. The requester can send this amount of CLO, ETH or ETC to [0x74682Fc32007aF0b6118F259cBe7bCCC21641600 (Treasury address)](https://explorer2.callisto.network/addr/0x74682Fc32007aF0b6118F259cBe7bCCC21641600).
+
+| Priority | Payment formula | Description |
+| ---: | ---: | ---: |
+| Highest | 500 USD + (0.5 USD per line of code) | Highest priority audits are processed before of any audits in the queue. |
+| High | 1000 USD + (0.6 USD per line of code) | High priority audits are processed before any audits in the queue, except for the highest priority audits. |
+
+Any of these three currencies (ETH, ETC or CLO) can be sent to this address `0x74682Fc32007aF0b6118F259cBe7bCCC21641600`. The payment amount will be calculated based on the exchange rate of the currency that was used for the payment (calculated at [CoinMarketCap](https://coinmarketcap.com/) rate). The amount of payment depends on the length of the code of the auditable contract. Empty lines of code and comments can be excluded and it is not necessary to pay for them. It is recommended to use [SLOC counter](https://agingcoder.com/tool/2014/04/22/sloc-counter/) to calculate the accurate amount of lines of code that require payment. The overpaid amount of CLO, ETH or ETC will be returned to the sender's address after the completion of the security audit. High priority audit requests are processed ahead of queue.
 
 NOTE: Please, attach the hex-encoded Data to the payment transaction to help us identify the validity of payment, if possible. [ASCII-To-Hex converter](https://www.rapidtables.com/convert/number/ascii-to-hex.html) can be used for this purpose. Example: "Payment for CryptoKitties audit request" will be encoded as `0x5061796d656e7420666f722043727970746f4b6974746965732061756469742072657175657374`.
 
