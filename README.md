@@ -15,6 +15,8 @@ alternatively you can use our verified badge:
 
 Anyone can submit a request of a security audit for an open-source smart-contract. After the creation of a security audit request, we will contact the developers of the smart contract being audited. Until we receive the response from the developers, the audit request will be assigned a `low priority` status. Low priority status is unassigned when we receive the confirmation from the developers. Confirmed audit requests are processed ahead of unconfirmed requests.
 
+However this does not necessarily mean that the confirmation from the developers is required. The callisto team will conduct an audit even if the project team does not confirm the request. Thus, any user can request an audit of any project, and the Callisto team will conduct this audit when the queue does not contain audit requests with higher priorities.
+
 # Submitting an audit request
 
 You can use Smart Contract Audit Request web form on our site: https://callisto.network/smart-contract-audit/ 
