@@ -30,9 +30,9 @@ or create request directly:
 
 ## Callisto Network is not a debugging tool!
 
-Although we provide free audits, we ask our customers to understand the fact that real people work in our organization, but not automated tests. We strongly recommend using specially designed tools for debugging and testing. We also recommend using automated tests to verify minor changes and fixes.
+Although we provide free audits, we ask our customers to understand that real people work in our organization, but not automated tests. We strongly recommend using specifically designed tools for debugging and testing. We also recommend using automated tests to verify minor changes and fixes.
 
-Please, only submit your code for review once the development of the smart-contract is in its final stage and the contract is ready to be used.
+Please, only submit your code for review once the development of the smart-contract is in its final stage and the contract is ready for deployment.
 
 Only the first audit of a smart-contract code is free. If a customer submits an updated smart-contract for re-audit then it will be necessary to pay for the re-audit ($0,6 per line of code).
 
