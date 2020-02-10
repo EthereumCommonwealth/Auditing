@@ -54,6 +54,8 @@ There are two ways to avoid a complete re-audit if the contract is updated:
 
 #### We accept ETH, ETC, CLO and EOS as payments.
 
+Callisto Network adheres to the [policy of financial transparency](https://github.com/EthereumCommonwealth/Roadmap/issues/48). All the received payments are recorded, described, stored and represented publicly.
+
 The requester can provide the payment for an audit request by sending a certain amount of CLO, ETH or ETC to the [0x74682Fc32007aF0b6118F259cBe7bCCC21641600 (Treasury address)](https://explorer2.callisto.network/addr/0x74682Fc32007aF0b6118F259cBe7bCCC21641600). EOS can be sent to this address [callistotokn](https://bloks.io/account/callistotokn).
 
 | Priority | Payment formula |
