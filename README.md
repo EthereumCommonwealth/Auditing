@@ -4,7 +4,7 @@
 Callisto Security department performs free security audits for smart-contracts. Our security auditors are paid from [Callisto Treasury](https://github.com/EthereumCommonwealth/Roadmap/issues/48). Anyone can submit a request for security audit of a smart-contract free of charge.
 
 | Security Department statistics | Ethereum (Solidity) | EOS (C++) |
-| ---: | ---: |
+| ---: | ---: | ---: |
 | Free auditing campaign | 0 audits per month | - |
 | Auditing fee (withheld from salaries) | 0% | - |
 | Third party announcers payments | 0% | - |
