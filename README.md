@@ -3,9 +3,11 @@
 
 Callisto Security department performs free security audits for smart-contracts. Our security auditors are paid from [Callisto Treasury](https://github.com/EthereumCommonwealth/Roadmap/issues/48). Anyone can submit a request for security audit of a smart-contract free of charge.
 
-ETC (Ethereum Classic) and CLO (Callisto) Solidity smart-contracts have the highest priority.
+According to the [Security Department workflow amendment v1](https://github.com/EthereumCommonwealth/Roadmap/issues/62) we will only process a limited number of security audits per month. *This is a temporary measure and we hope to be able to handle more security audits for free in the near future.*
 
-If you are using our audit report or announcing it for the general public, proper attribution required: 
+In order to get your project audited consider announcing the audit request for the public with any social media platforms (twitter/ reddit/ bitcointalk/ facebook) after submitting the audit request. Provide the links to the public audit request announcement in the comment thread of the audit request in order to help us track your audit recognition. Those projects whose announcements gain more traction and social media recognition will be audited for free within the month while the rest will be left for the next month or processed on paid basis.
+
+If you are using our audit report or announcing it for the general public, then proper attribution is required: 
 
 "Smart Contract Security Audit by Callisto Network" 
 
@@ -13,9 +15,7 @@ alternatively you can use our verified badge:
 
 ![alt text](https://github.com/sneg55/Auditing/blob/master/callisto-badge.png)
 
-Anyone can submit a request of a security audit for an open-source smart-contract. After the creation of a security audit request, we will contact the developers of the smart contract being audited. Until we receive the response from the developers, the audit request will be assigned a `low priority` status. Low priority status is unassigned when we receive the confirmation from the developers. Confirmed audit requests are processed ahead of unconfirmed requests.
-
-However this does not necessarily mean that the confirmation from the developers is required. The callisto team will conduct an audit even if the project team does not confirm the request. Thus, any user can request an audit of any project, and the Callisto team will conduct this audit when the queue does not contain audit requests with higher priorities.
+Anyone can submit a request of a security audit for an open-source smart-contract. After the creation of a security audit request, we will contact the developers of the smart contract. However the confirmation from the developers is **NOT** required. The callisto team will conduct an audit even if the project team does not confirm the request. Thus, any user can request an audit of any project, and the Callisto team will conduct this audit when the queue does not contain audit requests with higher priorities.
 
 # Submitting an audit request
 
@@ -44,22 +44,23 @@ There are two ways to avoid a complete re-audit if the contract is updated:
 
 - cover the smart-contract code with [automated tests](https://www.trufflesuite.com/docs/truffle/testing/writing-tests-in-solidity) to prove that the update did not affect a behavior of the smart-contract
 
-### (Optional) Increasing the priority of an audit request
+### Audit request payments
 
-The requester can increase the priority of an audit request by paying a certain amount of CLO, ETH or ETC. The requester can send this amount of CLO, ETH or ETC to [0x74682Fc32007aF0b6118F259cBe7bCCC21641600 (Treasury address)](https://explorer2.callisto.network/addr/0x74682Fc32007aF0b6118F259cBe7bCCC21641600).
+#### We accept ETH, ETC, CLO and EOS as payments.
+
+The requester can provide the payment for an audit request by sending a certain amount of CLO, ETH or ETC to the [0x74682Fc32007aF0b6118F259cBe7bCCC21641600 (Treasury address)](https://explorer2.callisto.network/addr/0x74682Fc32007aF0b6118F259cBe7bCCC21641600). EOS can be sent to this address [callistotokn](https://bloks.io/account/callistotokn).
 
 | Priority | Payment formula |
 | ---: | ---: |
-| Highest | 1000 USD + (0.6 USD per line of code) |
 | High | 500 USD + (0.5 USD per line of code) |
 
 - Highest priority audits are processed before of any audits in the queue.
 
 - High priority audits are processed before any audits in the queue, except for the highest priority audits.
 
-Any of these three currencies (ETH, ETC or CLO) can be sent to this address `0x74682Fc32007aF0b6118F259cBe7bCCC21641600`. The payment amount will be calculated based on the exchange rate of the currency that was used for the payment (calculated at [CoinMarketCap](https://coinmarketcap.com/) rate). The amount of payment depends on the length of the code of the auditable contract. Empty lines of code and comments can be excluded and it is not necessary to pay for them. It is recommended to use [SLOC counter](https://agingcoder.com/tool/2014/04/22/sloc-counter/) to calculate the accurate amount of lines of code that require payment. The overpaid amount of CLO, ETH or ETC will be returned to the sender's address after the completion of the security audit. High priority audit requests are processed ahead of queue.
+The payment amount will be calculated based on the exchange rate of the currency that was used for the payment (calculated at [CoinMarketCap](https://coinmarketcap.com/) rate). The amount of payment depends on the length of the code of the auditable contract. Empty lines of code and comments can be excluded and it is not necessary to pay for them. It is recommended to use [SLOC counter](https://agingcoder.com/tool/2014/04/22/sloc-counter/) to calculate the accurate amount of lines of code that require payment. The overpaid amount of CLO, ETH, EOS or ETC will be returned to the sender's address after the completion of the security audit. Highest priority audit requests are processed ahead of queue.
 
-NOTE: Please, attach the hex-encoded Data to the payment transaction to help us identify the validity of payment, if possible. [ASCII-To-Hex converter](https://www.rapidtables.com/convert/number/ascii-to-hex.html) can be used for this purpose. Example: "Payment for CryptoKitties audit request" will be encoded as `0x5061796d656e7420666f722043727970746f4b6974746965732061756469742072657175657374`.
+NOTE: Requester can attach the hex-encoded Data to the payment transaction to help us identify the validity of payment. [ASCII-To-Hex converter](https://www.rapidtables.com/convert/number/ascii-to-hex.html) can be used for this purpose. Example: "Payment for CryptoKitties audit request" will be encoded as `0x5061796d656e7420666f722043727970746f4b6974746965732061756469742072657175657374`. EOS transactions should include the description as transaction `memo`. In case of EOS payment no encoding is needed.
 
 Example:
 
