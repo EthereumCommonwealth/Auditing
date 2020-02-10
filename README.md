@@ -3,7 +3,7 @@
 
 Callisto Security department performs free security audits for smart-contracts. Our security auditors are paid from [Callisto Treasury](https://github.com/EthereumCommonwealth/Roadmap/issues/48). Anyone can submit a request for security audit of a smart-contract free of charge.
 
-**According to the [Security Department workflow amendment v1](https://github.com/EthereumCommonwealth/Roadmap/issues/62) we will only process a limited number of security audits per month. *This is a temporary measure and we hope to be able to handle more security audits for free in the near future.* **
+**According to the [Security Department workflow amendment v1](https://github.com/EthereumCommonwealth/Roadmap/issues/62) we will only process a limited number of security audits per month. *This is a temporary measure and we hope to be able to handle more security audits for free in the near future.***
 
 In order to get your project audited consider announcing the audit request for the public with any social media platforms (twitter/ reddit/ bitcointalk/ facebook) after submitting the audit request. Provide the links to the public audit request announcement in the comment thread of the audit request in order to help us track your audit recognition. Those projects whose announcements gain more traction and social media recognition will be audited for free within the month while the rest will be left for the next month or processed on paid basis.
 
