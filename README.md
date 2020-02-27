@@ -26,9 +26,7 @@ or create request directly:
 
 # Applying for free-of-charge audit.
 
-In order to get your project audited consider announcing the audit request for the public with any social media platforms (twitter/ red.
-
-dit/ bitcointalk/ facebook) after submitting the audit request. Provide the links to the public audit request announcement in the comment thread of the audit request in order to help us track your audit recognition. Those projects whose announcements gain more traction and social media recognition will be audited for free within the month while the rest will be left for the next month or processed on paid basis.
+In order to get your project audited consider announcing the audit request for the public with any social media platforms (twitter/ reddit/ bitcointalk/ facebook) after submitting the audit request. Provide the links to the public audit request announcement in the comment thread of the audit request in order to help us track your audit recognition. Those projects whose announcements gain more traction and social media recognition will be audited for free within the month while the rest will be left for the next month or processed on paid basis.
 
 If you are using our audit report or announcing it for the general public, then proper attribution is required: 
 
@@ -78,7 +76,7 @@ NOTE: Requester can attach the hex-encoded Data to the payment transaction to he
 
 Example:
 
-If a user is willing to submit `MyToken.sol` (210 lines of code) contract for the audit and increase the priority of this request then he need to send $126 equivalent of CLO to Treasury address. He can attach the `0x5061796d656e7420666f72204d79546f6b656e206175646974` data to the transaction to prove that this is the payment for the MyToken audit priority.
+If a user is willing to submit `MyToken.sol` (210 lines of code) contract for the audit and increase the priority of this request then he need to send $605 equivalent of CLO to Treasury address. He can attach the `0x5061796d656e7420666f72204d79546f6b656e206175646974` data to the transaction to prove that this is the payment for the MyToken audit priority.
 
 ![alt text](https://github.com/EthereumCommonwealth/Callisto-Media-Kit/blob/master/logo-official-twitter_506x253.png)
 
