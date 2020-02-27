@@ -1,27 +1,17 @@
 # Callisto Smart-contract auditing department.
-# Free security audits, for the safety of the entire industry.
+# Free* security audits, for the safety of the entire industry.
 
-Callisto Security department performs free security audits for smart-contracts. Our security auditors are paid from [Callisto Treasury](https://github.com/EthereumCommonwealth/Roadmap/issues/48). Anyone can submit a request for security audit of a smart-contract free of charge.
+**According to the [Security Department workflow amendment v1](https://github.com/EthereumCommonwealth/Roadmap/issues/62) we will only process a limited number of security audits per month. *This is a temporary measure and we hope to be able to handle more security audits for free in the near future.***
+
+**We strive to cover the most significant and popular projects that will potentially cause the greatest damage to the ecosystem in the event of a hack. For other projects, we also provide audit services for a certain fee. The formula for payment calculation can be found below.**
+
+Callisto Security department performs free security audits for smart-contracts. Our security auditors are paid from [Callisto Treasury](https://github.com/EthereumCommonwealth/Roadmap/issues/48). Anyone can submit a request for security audit of a smart-contract free of charge. If the queue of free audits reaches the submitted request, then it will be processed by the Callisto Security Department.
 
 | Security Department statistics | Ethereum (Solidity) | EOS (C++) |
 | ---: | ---: | ---: |
 | Free auditing campaign | 0 audits per month | - |
 | Auditing fee (withheld from salaries) | 0% | - |
 | Third party announcers payments | 0% | - |
-
-**According to the [Security Department workflow amendment v1](https://github.com/EthereumCommonwealth/Roadmap/issues/62) we will only process a limited number of security audits per month. *This is a temporary measure and we hope to be able to handle more security audits for free in the near future.***
-
-In order to get your project audited consider announcing the audit request for the public with any social media platforms (twitter/ reddit/ bitcointalk/ facebook) after submitting the audit request. Provide the links to the public audit request announcement in the comment thread of the audit request in order to help us track your audit recognition. Those projects whose announcements gain more traction and social media recognition will be audited for free within the month while the rest will be left for the next month or processed on paid basis.
-
-If you are using our audit report or announcing it for the general public, then proper attribution is required: 
-
-"Smart Contract Security Audit by Callisto Network" 
-
-alternatively you can use our verified badge:
-
-![alt text](https://github.com/sneg55/Auditing/blob/master/callisto-badge.png)
-
-Anyone can submit a request of a security audit for an open-source smart-contract. After the creation of a security audit request, we will contact the developers of the smart contract. However the confirmation from the developers is **NOT** required. The callisto team will conduct an audit even if the project team does not confirm the request. Thus, any user can request an audit of any project, and the Callisto team will conduct this audit when the queue does not contain audit requests with higher priorities.
 
 # Submitting an audit request
 
@@ -33,6 +23,22 @@ or create request directly:
 2. Fill the form and click a "Submit New Issue" button.
 3. Follow the comments in the corresponding "issue" discussion.
 4. The result of a security audit will be published at the comment thread with the `Security Audit Report` header once auditors complete their task.
+
+# Applying for free-of-charge audit.
+
+In order to get your project audited consider announcing the audit request for the public with any social media platforms (twitter/ red.
+
+dit/ bitcointalk/ facebook) after submitting the audit request. Provide the links to the public audit request announcement in the comment thread of the audit request in order to help us track your audit recognition. Those projects whose announcements gain more traction and social media recognition will be audited for free within the month while the rest will be left for the next month or processed on paid basis.
+
+If you are using our audit report or announcing it for the general public, then proper attribution is required: 
+
+"Smart Contract Security Audit by Callisto Network" 
+
+alternatively you can use our verified badge:
+
+![alt text](https://github.com/sneg55/Auditing/blob/master/callisto-badge.png)
+
+Anyone can submit a request of a security audit for an open-source smart-contract. After the creation of a security audit request, we will contact the developers of the smart contract. However the confirmation from the developers is **NOT** required. The callisto team will conduct an audit even if the project team does not confirm the request. Thus, any user can request an audit of any project, and the Callisto team will conduct this audit when the queue does not contain audit requests with higher priorities.
 
 ## Callisto Network is not a debugging tool!
 
