@@ -127,9 +127,9 @@ After the audit was completed, the audit manager **may** inform the customer abo
 
 ## Security Auditor's Salary
 
-One of the main goals of Callisto is to develop a self-sustaining DAO-like security auditing department structure. Therefore, the payment schema should ensure a high level of automatization and formalization.
+Security auditors are paid based on the results of their work. Depending on the payment scheme for audit requests (free auditing campaign or paid audit), the auditor's salary is calculated using the methods described below.
 
-In the Security Department of Callisto, smart-contract auditors are paid once a month, on the 15th day of each month.
+In the Security Department of Callisto, smart-contract auditors are paid once a month.
 
 The total amount of payment is calculated based on the amount of tasks performed during the last month. Each security audit is evaluated separately and a security auditor receives payment for each audit performed.
 
@@ -145,7 +145,7 @@ Each finding has a certain weight in points. The following values will be used t
 
 The following formula is used to calculate the auditor's reward for the assigned task:
 
-![REWARD_FORMULA](https://user-images.githubusercontent.com/26142412/54073247-6ea3b800-429e-11e9-9d74-4a5c2073da0e.png)
+#### Awaiting the update of the payment formula.
 
 Where:
 
