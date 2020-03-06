@@ -145,13 +145,13 @@ Each finding has a certain weight in points. The following values will be used t
 
 The following formula is used to calculate the auditor's reward for the assigned task:
 
-#### Awaiting the update of the payment formula.
+![image](https://user-images.githubusercontent.com/26142412/54073247-6ea3b800-429e-11e9-9d74-4a5c2073da0e.png)
 
 Where:
 
 `reward` - the amount of CLO that will be paid to the auditor for his(her) contribution to this security audit.
 
-`audit reward` = $1 * `[number of lines]`
+`audit reward` = $500 + $0.5 * `[number of lines]`
 
 `sum (auditor points)` - all points earned by the auditor.
 
@@ -161,46 +161,6 @@ The `[number of lines]` of code in the source code of the auditable smart-contra
 
 Auditors will receive the reward depending on the quality and quantity of the work done.
 If a contract has only low severity issues or no issues then it’s reward will be divide equally between all auditors who worked at the security audit of this contract.
-
-### Example
-
-Calculating the results of [LuckyStrike audit](https://github.com/EthereumCommonwealth/Auditing/issues/152) (assuming that this would be the first request, not a request for re-audit).
-
-- Lines of code: 1612
-
-- 1 high severity issue
-
-- 3 medium severity issues
-
-- 5 low severity issues
-
-- 2 minor observation
-
-#### Auditor's findings
-
-- `Auditor 1` reported 4 low and 3 medium findings. (He did not report one high severity mistake).
-
-- `Auditor 2` reported 2 low, 1 medium and 1 high findings. (He did not report two medium severity mistakes).
-
--  `Auditor 3` reported 5 low findings. (He did not report any medium or high severity mistakes).
-
-
-#### Auditor's points
-
-- `Auditor 1` = 28
-
-- `Auditor 2` = 55
-
-- `Auditor 3` = 5
-
-#### Auditor's salaries
-
-- `Auditor 1` = 1612 * 100 * 28 / (28 + 55 + 5) = 512.9 USD
-
-- `Auditor 2` = 1612 * 100 * 55 / (28 + 55 + 5) = 1007.5 USD
-
-- `Auditor 3` = 1612 * 100 * 5 / (28 + 55 + 5)  = 91.59 USD
-
 
 # Security Auditor's guide
 
