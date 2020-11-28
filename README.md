@@ -1,7 +1,7 @@
 # Callisto Smart-contract auditing department.
 # Free* security audits, for the safety of the entire industry.
 
-**According to the [Security Department workflow amendment v1](https://github.com/EthereumCommonwealth/Roadmap/issues/62) we will only process a limited number of security audits per month. *This is a temporary measure and we hope to be able to handle more security audits for free in the near future.***
+**According to the [Security Department workflow amendment v1](https://github.com/EthereumCommonwealth/Roadmap/issues/62) we will only process a limited number of free security audits per month. *This is a temporary measure and we hope to be able to handle more security audits for free in the near future.***
 
 **We strive to cover the most significant and popular projects that will potentially cause the greatest damage to the ecosystem in the event of a hack. For other projects, we also provide audit services for a certain fee. The formula for payment calculation can be found below.**
 
