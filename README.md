@@ -237,6 +237,8 @@ Severity assigning:
 
 - minor observation - other code flaws, not security-related issues.
 
+- owner privileges - a specific severity class for findings which provide the owner with the ability to manipulate the contract in such a way that it could theoretically harm users in case the owner will act maliciously or the owners account get compromised.
+
 #### Code snippet
 
 Give a link to a fragment of code that can lead to an error that you describe.
