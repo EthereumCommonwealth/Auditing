@@ -6,6 +6,14 @@
 
 ... Give a link to the source code of contracts ...
 
+# Payment plan
+
+... Write [x] at the checkbox of the payment plan that suits your needs ...
+
+- [x] Standard (standard projects such as ICOs, ERC20, ERC223, ERC721, ERC721A tokens and NFTs fall in this category - 2 auditors. $500 + $1 per line of code / minimum $1000)
+- [ ] Advanced (non-standard projects requiring more careful review - 3 auditors. $1000 + $1.25 per line / minimum $2000)
+- [ ] Corporate (projects that require post-launch support - 3 auditors - Callisto Team will handle the bugbounty and provide a 1 month long period of technical support regarding the necessary security enhancement procedures and track/highlight any issues and potential threats - this plan allows to further apply for Callisto DAPP Insurance program)
+
 # Disclosure policy
 
 ... Do you want us to publish the report as it is or to notify you privately in case of finding critical mistakes? ...
