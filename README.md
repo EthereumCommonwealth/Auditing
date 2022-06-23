@@ -2,6 +2,13 @@
 
 Callisto Security department performs security audits of smart-contracts. Our security auditors are paid from [Callisto Treasury](https://github.com/EthereumCommonwealth/Roadmap/issues/48). Anyone can submit a request for security audit of a smart-contract following the rules described below.
 
+# Security Audit options
+
+There are three options of the security audit workflow suitable for small-, medium- and large-scale projects:
+ - Standard (standard projects such as ICOs, ERC20, ERC223, ERC721, ERC721A tokens and NFTs fall in this category - 2 auditors. $500 + $1 per line of code / minimum $1000)
+- Advanced (non-standard projects requiring more careful review - 3 auditors. $1000 + $1.25 per line / minimum $2000)
+- Corporate (projects that require post-launch support - 3 auditors - Callisto Team will handle the bugbounty and provide a 1 month long period of technical support regarding the necessary security enhancement procedures and track/highlight any issues and potential threats - this plan allows to further apply for Callisto DAPP Insurance program)
+
 # Submitting an audit request
 
 Audit request can be submitted directly via [Github Issues](https://github.com/EthereumCommonwealth/Auditing/issues) or [open telegram channel](https://t.me/CallistoAudits) :
