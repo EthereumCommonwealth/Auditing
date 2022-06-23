@@ -1,5 +1,7 @@
 # Callisto Smart-contract auditing department.
 
+## Callisto Auditing Department is encouraging the DAPP development community to queue the audit requests: any audit requests submitted before 7 / 12 / 2022 will receive a 25% discount. Audit requests will be processed starting at 7 / 13 / 2022 according to the standard workflow
+
 Callisto Security department performs security audits of smart-contracts. Our security auditors are paid from [Callisto Treasury](https://github.com/EthereumCommonwealth/Roadmap/issues/48). Anyone can submit a request for security audit of a smart-contract following the rules described below.
 
 # Security Audit options
