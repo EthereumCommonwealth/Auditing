@@ -1,23 +1,10 @@
 # Callisto Smart-contract auditing department.
-# Free* security audits, for the safety of the entire industry.
 
-**According to the [Security Department workflow amendment v1](https://github.com/EthereumCommonwealth/Roadmap/issues/62) we will only process a limited number of free security audits per month. *This is a temporary measure and we hope to be able to handle more security audits for free in the near future.***
-
-**We strive to cover the most significant and popular projects that will potentially cause the greatest damage to the ecosystem in the event of a hack. For other projects, we also provide audit services for a certain fee. The formula for payment calculation can be found below.**
-
-Callisto Security department performs free security audits for smart-contracts. Our security auditors are paid from [Callisto Treasury](https://github.com/EthereumCommonwealth/Roadmap/issues/48). Anyone can submit a request for security audit of a smart-contract free of charge. If the queue of free audits reaches the submitted request, then it will be processed by the Callisto Security Department.
-
-| Security Department statistics | Ethereum (Solidity) | EOS (C++) |
-| ---: | ---: | ---: |
-| Free auditing campaign | 0 audits per month | - |
-| Auditing fee (withheld from salaries) | 0% | - |
-| Third party announcers payments | 0% | - |
+Callisto Security department performs security audits of smart-contracts. Our security auditors are paid from [Callisto Treasury](https://github.com/EthereumCommonwealth/Roadmap/issues/48). Anyone can submit a request for security audit of a smart-contract following the rules described below.
 
 # Submitting an audit request
 
-You can use Smart Contract Audit Request web form on our site: https://callisto.network/smart-contract-audit/ 
-
-or create request directly:
+Audit request can be submitted directly via [Github Issues](https://github.com/EthereumCommonwealth/Auditing/issues) or [open telegram channel](https://t.me/CallistoAudits) :
 
 1. Go to Auditing/issues section and click a [New Issue](https://github.com/EthereumCommonwealth/Auditing/issues/new) button.
 2. Fill the form and click a "Submit New Issue" button.
