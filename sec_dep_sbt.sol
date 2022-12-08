@@ -109,6 +109,8 @@ abstract contract CallistoSBT is ICallistoSBT, Ownable {
     mapping (address => mapping (uint256 => mapping (uint256 => bool))) internal _writingPermission; // address_of_writer => tokenID => propertyID => Permission (Yes / No)
     mapping (address => bool) management_permission; // defines writing permissions for auditing department managers
 
+    bool public allow_manager_access = true;
+
     modifier onlyOwnerOrManager
     {
         require(owner() == msg.sender || management_permission[msg.sender], "Permission management: caller is not the owner or manager");
@@ -207,7 +209,14 @@ abstract contract CallistoSBT is ICallistoSBT, Ownable {
 
     function setProperty(uint256 tokenId, uint256 propertyId, string calldata content) public
     {
-        require(_writingPermission[msg.sender][tokenId][propertyId]);
+        if(allow_manager_access)
+        {
+            require(_writingPermission[msg.sender][tokenId][propertyId] || msg.sender == owner() || management_permission[msg.sender]);
+        }
+        else
+        {
+            require(_writingPermission[msg.sender][tokenId][propertyId]);
+        }
         _tokenProperties[tokenId].properties[propertyId] = content;
     }
 
