@@ -225,6 +225,12 @@ abstract contract CallistoSBT is ICallistoSBT, Ownable {
         }
     }
 
+    function addPropertyWithContent(uint256 tokenId, string calldata _content) public onlyOwnerOrManager
+    {
+        _tokenProperties[tokenId].properties.push("");
+        _tokenProperties[tokenId].properties[_tokenProperties[tokenId].properties.length] = _content;
+    }
+
     function mintWithProperties(address to, uint256 tokenId, uint8 propertiesCount) public onlyOwnerOrManager
     {
         _mint(to, tokenId);
@@ -269,7 +275,7 @@ abstract contract CallistoSBT is ICallistoSBT, Ownable {
     // Template tokens are special contracts that implement complex minting logic,
     // for example minting a token then configuring 2 properties with writing permission for address A,
     // another 2 properties with writing permission for address B and 1 more property with writing permission for address C
-    
+
     function delegatecall(address _source, string calldata _func) public onlyOwner
     {
         (bool success, bytes memory data) = _source.delegatecall(
