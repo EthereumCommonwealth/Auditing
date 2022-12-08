@@ -211,7 +211,7 @@ abstract contract CallistoSBT is ICallistoSBT, Ownable {
         _tokenProperties[tokenId].properties[propertyId] = content;
     }
 
-    function setPermission(address who, uint256 tokenId, uint256 propertyId, bool permission) public onlyOwnerOrManager
+    function setPropertyPermission(address who, uint256 tokenId, uint256 propertyId, bool permission) public onlyOwnerOrManager
     {
         _writingPermission[who][tokenId][propertyId] = permission;
     }
