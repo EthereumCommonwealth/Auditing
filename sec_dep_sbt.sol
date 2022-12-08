@@ -91,7 +91,6 @@ interface ICallistoSBT {
     function standard() external view returns (string memory);
     function balanceOf(address _who) external view returns (uint256);
     function ownerOf(uint256 _tokenId) external view returns (address);
-    function transfer(address _from, address _to, uint256 _tokenId, bytes memory _data, bool _invoke_callback) external returns (bool);
     
     function getTokenProperties(uint256 _tokenId) external view returns (Properties memory);
     function getTokenProperty(uint256 _tokenId, uint256 _propertyId) external view returns (string memory);
@@ -282,4 +281,9 @@ abstract contract CallistoSBT is ICallistoSBT, Ownable {
             abi.encodeWithSignature(_func)
         );
     }
+}
+
+contract SecurityDepartmentSBT is CallistoSBT("Sec.Dep. SBT", "SecDep")
+{
+    
 }
