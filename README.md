@@ -28,7 +28,7 @@ If you are using our audit report or announcing it for the general public, then 
 
 alternatively you can use our verified badge:
 
-![alt text](https://github.com/sneg55/Auditing/blob/master/callisto-badge.png)
+![alt text](https://github.com/EthereumCommonwealth/Auditing/blob/master/callisto-badge.png)
 
 Anyone can submit a request of a security audit for an open-source smart-contract. After the creation of a security audit request, we will contact the developers of the smart contract. However the confirmation from the developers is **NOT** required. The callisto team will conduct an audit even if the project team does not confirm the request. Thus, any user can request an audit of any project, and the Callisto team will conduct this audit when the queue does not contain audit requests with higher priorities.
 
