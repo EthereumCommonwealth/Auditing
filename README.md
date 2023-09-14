@@ -1,6 +1,6 @@
 # Callisto Smart-contract auditing department.
 
-Callisto Security department performs security audits of smart-contracts. Our security auditors are paid from [Callisto Treasury](https://github.com/EthereumCommonwealth/Roadmap/issues/48). Anyone can submit a request for security audit of a smart-contract following the rules described below.
+Callisto Security department performs security audits of smart-contracts. Anyone can submit a request for security audit of a smart-contract following the rules described below.
 
 # Security Audit options
 
